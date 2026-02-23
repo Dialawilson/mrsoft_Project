@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 1pc;
+}
+.list{
+    border: 2px solid black;
+    display: flex;
+    gap:20px;
+}
+.student-list{
+    border: 2px solid black;
+    width: 70%;
+}
+.ongoing{
+    border: 2px solid black;
+    width: 30%;
+}
