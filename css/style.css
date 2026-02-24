@@ -116,6 +116,95 @@ body{
   padding-top: 15px;
 }
 
+.student-section {
+  margin: 60px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+.student-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+
+.add-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
+
+.student-row {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.student-row div {
+  flex: 1;
+}
+
+
+.header {
+  font-weight: bold;
+  color: #666;
+  border-bottom: 2px solid #ddd;
+}
+
+
+.attendance-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+.attendance-btn:hover {
+  opacity: 0.9;
+}
+.section-title {
+  margin-bottom: 20px;
+}
+
+
+.add-student-container {
+  margin-top: 25px;
+}
+
+
+.add-student-container .add-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
 body {
     margin: 0;
     padding: 1pc;
