@@ -37,6 +37,23 @@ body {
     margin-right: 40px;
 }
 
+#divWrapper{
+    display: flex;
+
+}
+#searchContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+}
+#searchContainer > input{
+    padding: 10px 30px;
+}
+#searchContainer > span{
+    position: relative;
+    left: 30px;
+}
 /* .class-list{
     display: flex;
     justify-content: space-between;
@@ -71,7 +88,17 @@ body {
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    border-top: 2px solid black;
 }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 
 .student-list table{
     width: 100%;

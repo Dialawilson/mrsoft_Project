@@ -1,28 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <link rel="stylesheet" href="css/style.css">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mrsoft Project</title>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search"
+    />
+  </head>
+  <body>
     <section>
-        <!-- tobe -->
-
+      <!-- tobe -->
     </section>
     <section class="list">
+      <section class="student-list">
+        <!-- Destiny -->
+        <h1>Student List</h1>
+        <div id="divWrapper">
+        <div class="actions">
+            <a href="studentform.html">
+          <button class="btn style">Add Student</button></a>
+          <button class="btn style">Assign class</button>
+          
+        </div>
 
-        <section class="student-list">
-            <!-- Destiny -->
-            <h1>Student List</h1>
-            <div class="actions">
-                <button class="btn style">Add Student</button>
-                <button class="btn style">Assign class</button>
-                <input class="searchbox" type="text" placeholder="Search students">
-            </div>
+        <div id="searchContainer">
+          <span class="material-symbols-outlined">search</span>
+          <input class="searchbox" type="text" placeholder="Search students" />
+        </div>
+        </div>
 
-            <!-- <table>
+        <!-- <table>
                 <thead>
                     <tr>
                         <th>Student</th>
@@ -48,37 +58,35 @@
                     </tr>
                 </tbody>
             </table> -->
-                    
-            <div>
-                <div class="class-list">
-                    <h4 id="student">Student</h4>
-                    <h4 id="class">Class</h4>
-                </div>
-                <div class="student-card">
-                    <p>Ebere Tobechukwu</p>
-                    <button class="assigned">Assigned</button>
-                </div>
-                <div class="student-card">
-                    <p>Asiegbu Esther</p>
-                    <button class="assigned">Assigned</button>
-                </div>
-                <div class="student-card">
-                    <p>Atigbi Destiny</p>
-                    <button class="assigned">Assigned</button>
-                </div>
-                <div class="student-card">
-                    <p>Amachree Sokiepirim</p>
-                    <button class="pending">Pending</button>
-                </div>
-            </div>
-            <a href="#" class="view-all">View All</a>
 
-        </section>
-        <section class="ongoing">
-            <!-- ester -->
-          ongoing  
-        </section>
+        <div>
+          <div class="class-list">
+            <h4 id="student">Student</h4>
+            <h4 id="class">Class</h4>
+          </div>
+          <div class="student-card">
+            <p>Ebere Tobechukwu</p>
+            <button class="assigned">Assigned</button>
+          </div>
+          <div class="student-card">
+            <p>Asiegbu Esther</p>
+            <button class="assigned">Assigned</button>
+          </div>
+          <div class="student-card">
+            <p>Atigbi Destiny</p>
+            <button class="assigned">Assigned</button>
+          </div>
+          <div class="student-card">
+            <p>Amachree Sokiepirim</p>
+            <button class="pending">Pending</button>
+          </div>
+        </div>
+        <a href="#" class="view-all">View All</a>
+      </section>
+      <section class="ongoing">
+        <!-- ester -->
+        ongoing
+      </section>
     </section>
-    
-</body>
+  </body>
 </html>
