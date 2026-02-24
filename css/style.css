@@ -25,6 +25,46 @@ body {
     margin-bottom: 15px;
 }
 
+.student-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 15px; */
+    gap: 100px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+   margin-left: 20px;
+}
+
+/* .class-list{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    /* background-color: grey; */
+    /* height: 50px;
+    padding: 10px; */
+  /* margin-left: 20px; */
+    /* margin-top: 30px;
+    border-radius: 8px; */
+
+
+.class-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+   background-color: grey;
+    border: 2px solid black;
+    height: 50px;
+
+    margin-top: 20px;
+    width: 512px;
+    margin-left:20px;
+    
+}
+
 .searchbox input{
     padding: 5px;
     border: 1px solid #ccc;
