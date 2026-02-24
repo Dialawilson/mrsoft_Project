@@ -33,7 +33,8 @@ body {
     gap: 100px;
     margin-bottom: 10px;
     border-radius: 8px;
-   /* margin-left: 20px; */
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 /* .class-list{
@@ -49,29 +50,21 @@ body {
 
 
 .class-list {
-    display: flex;
+     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    background-color: #e9edf3;
-     /* padding: 25px 40px; */
-    border-radius: 8px;
-    color: #333;
-    width: 100%;
-    margin-top: 20px;
+    align-items: center; 
+     background-color: #e9edf3;
+     border-radius: 8px;
     flex-direction: row;
-      /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+    gap: 10px;
     font-size: 20px;
    background-color: grey;
     border: 2px solid black;
-    height: 50px;
+     height: 50px;
    margin-top: 20px;
     width: 512px;
     margin-left:20px;
-     */
+
 }
 
 .searchbox input{
@@ -126,4 +119,10 @@ body {
 .ongoing{
     border: 2px solid black;
     width: 30%;
+}
+#student{
+    margin-left: 20px;
+}
+#class{
+    margin-right: 60px;
 }
