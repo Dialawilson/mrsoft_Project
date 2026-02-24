@@ -1,3 +1,79 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+     background-color: aliceblue;
+}
+
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: aliceblue;
+
+}
+
+
+#pages {
+  display: flex;
+  gap: 30px;
+  background-color: white;
+  padding:  8px 15px; 
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+
+#pages a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+
+}
+
+
+#pages a:hover {
+  background-color: green;
+
+  color: white;
+}
+
+
+#icons {
+  display: flex;
+  gap: 20px;
+
+}
+
+#icons img {
+  width: 20px;   
+  height: 20px;
+  object-fit: contain;
+}
+
+#welcome {
+  margin: 40px 60px; 
+  padding: 40px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+ 
+}
+#logo{
+  background-color: white;
+  padding:  8px 15px; 
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
 body {
     margin: 0;
     padding: 1pc;
