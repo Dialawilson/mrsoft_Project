@@ -202,3 +202,40 @@ body {
 #class{
     margin-right: 60px;
 }
+.cont{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 90vh;
+    width: 78vw;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    gap: 20px;
+
+
+}
+.col-1{
+    width: 70%;
+    border: 2px solid rgb(145, 31, 31);
+}
+.col-2{
+    width: 30%;
+    border: 2px solid rgb(31, 145, 75);
+}
+.t-col-1{
+    border: 2px solid rgb(31, 145, 75);
+    height: 40vh auto;
+    margin: 10px auto;
+    width: 78vw;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.d-row-1{
+    border: 2px solid rgb(31, 145, 75);
+    height: 40vh auto;
+    margin: 10px auto;
+    width: 78vw;
+    padding: 20px;
+}
