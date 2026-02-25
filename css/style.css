@@ -213,17 +213,16 @@ body {
     border: 2px solid black;
     display: flex;
     gap: 20px;
-    width: 650px;
+    max-width: 650px;
+    width: 100%;
     margin: 40px auto;
-    background: #fff;
+    
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0,  0, 0.1);
 
 }
 .student-list{
-    background: white;
     padding: 20px;
-    border-radius: 8px;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -236,22 +235,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 15px; */
-    gap: 100px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    margin-left: 40px;
-    margin-right: 40px;
+    width: 400px;
 }
 
 #divWrapper{
     display: flex;
-
+    margin-top: 10px;
+    align-items: center;
+    position: relative;
 }
 #searchContainer{
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     position: relative;
 }
 #searchContainer > input{
@@ -278,17 +274,12 @@ body {
     justify-content: space-between;
     align-items: center; 
      background-color: #e9edf3;
-     border-radius: 8px;
     flex-direction: row;
     gap: 10px;
     font-size: 20px;
-   background-color: grey;
-    border: 2px solid black;
-     height: 50px;
-   margin-top: 20px;
-    width: 512px;
-    margin-left:20px;
-
+    border: 2px solid #f1f1f1f1;
+    width: 100%;
+    padding: 1rem;
 }
 
 .searchbox input{
@@ -338,13 +329,12 @@ body {
 
 .actions button{
     padding: 5px;
-    border: none;
+    border-radius: 8px;
     background: green;
     color: black;
 }
 
 .view-all{
-    display: inline-block;
     margin-top: 10px;
     text-decoration: overline;
     color: black;
@@ -355,10 +345,10 @@ body {
     width: 30%;
 }
 #student{
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 #class{
-    margin-right: 60px;
+    /* margin-right: 60px; */
 }
 .cont{
     display: flex;
