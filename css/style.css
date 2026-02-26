@@ -158,10 +158,20 @@ body {
   padding: 15px 0;
   border-bottom: 1px solid #eee;
 }
+.last{
+  border-bottom: 5px solid black;
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
 
 .student-row div {
   flex: 1;
 }
+.last div{
+  flex: 1;
+}
+
 
 
 .header {
@@ -231,6 +241,11 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   background-color: white;
 
+}
+.view-all-container{
+  text-align: center;
+  margin-top: 25px;
+  cursor: pointer;
 }
 
 .student-list {
@@ -425,6 +440,7 @@ td {
   padding: 20px;
 }
 
+<<<<<<< HEAD
 .container {
   gap: 80px;
   /* margin-left: 800px; */
@@ -492,3 +508,5 @@ td {
   margin-bottom: 20px;
   color: #333;
 }
+=======
+>>>>>>> cfe3ae25192061264b9af828a36a732f3b9baa84
