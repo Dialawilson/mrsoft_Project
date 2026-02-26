@@ -1,144 +1,154 @@
 <!doctype html>
 <html lang="en">
-  <link rel="stylesheet" href="css/style.css" />
-  <head>
+<link rel="stylesheet" href="css/style.css" />
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mrsoft Project</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+</head>
+
+<body>
     <section>
-      <!-- tobe -->
-          <div id="nav-bar">
-        <div id="logo">
-           <div><img src="/images/logo.svg" alt=""></div>
+        <!-- tobe -->
+        <div id="nav-bar">
+            <div id="logo">
+                <div><img src="/images/logo.svg" alt=""></div>
+            </div>
+            <div id="pages">
+                <div><a href="">Dashboard</a></div>
+                <div><a href="students.html">Students</a></div>
+                <div><a href="">Classes</a></div>
+                <div><a href="">Payments</a></div>
+                <div><a href="">Settings</a></div>
+            </div>
+            <div id="icons">
+                <div><a href=""><img src="/images/searchicon.png" alt=""></a></div>
+                <div><a href=""><img src="/images/ppicon.png" alt=""></a></div>
+            </div>
+
         </div>
-        <div id="pages">
-          <div><a href="">Dashboard</a></div>
-          <div><a href="students.html">Students</a></div>
-          <div><a href="">Classes</a></div>
-           <div><a href="">Payments</a></div>
-           <div><a href="">Settings</a></div>
-        </div>
-        <div id="icons">
-           <div><a href="" ><img src="/images/searchicon.png" alt=""></a></div>
-           <div><a href=""><img src="/images/ppicon.png" alt=""></a></div>
-        </div>
-       
-    </div> 
-    <div>
+        <div>
             <div id="welcome">
                 <h1>Welcome Back, Onome</h1>
             </div>
         </div>
 
-    <div id="stats-container">
-  
-  <div id="stat-card">
-    <div id="icon">👥</div>
-    <h3>Total Students</h3>
-    <p>20</p>
-  </div>
+        <div id="stats-container">
 
-  <div id="stat-card">
-    <div id="icon">🏫</div>
-    <h3>Ongoing Classes</h3>
-    <p>5</p>
-  </div>
+            <div id="stat-card">
+                <div id="icon">👥</div>
+                <h3>Total Students</h3>
+                <p>20</p>
+            </div>
 
-  <div id="stat-card">
-    <div id="icon">💰</div>
-    <h3>Pending Fees</h3>
-    <p>700k</p>
-  </div>
+            <div id="stat-card">
+                <div id="icon">🏫</div>
+                <h3>Ongoing Classes</h3>
+                <p>5</p>
+            </div>
+
+            <div id="stat-card">
+                <div id="icon">💰</div>
+                <h3>Pending Fees</h3>
+                <p>700k</p>
+            </div>
 
         </div>
 
     </section>
-    <section class="list">
-      <section class="student-list">
-        <!-- Destiny -->
-        <h1>Student List</h1>
-        <div id="divWrapper">
-          <div class="actions">
-            <a href="addstudent.html">
-            <button class="btn style">Add Student</button></a>
-            <a href="assignclass.html"><button class="btn style">Assign class</button></a>
-          </div>
+    <section class="general">
+        <section class="list">
+            <section class="student-list">
+                <!-- Destiny -->
+                <h1>Student List</h1>
+                <div id="divWrapper">
+                    <div class="actions">
+                        <a href="addstudent.html">
+                            <button class="btn style">Add Student</button></a>
+                        <a href="assignclass.html"><button class="btn style">Assign class</button></a>
+                    </div>
 
-          <div id="searchContainer">
-            <span class="material-symbols-outlined">search</span>
-            <input class="searchbox" type="text" placeholder="Search students" />
-          </div>
-        </div>
-
-        <div>
-          <div class="class-list">
-            <h4 id="student">Student</h4>
-            <h4 id="class">Class</h4>
-          </div>
-          <div class="student-card">
-            <p>Ebere Tobechukwu</p>
-            <button class="assigned">Assigned</button>
-          </div>
-          <div class="student-card">
-            <p>Asiegbu Esther</p>
-            <button class="assigned">Assigned</button>
-          </div>
-          <div class="student-card">
-            <p>Atigbi Destiny</p>
-            <button class="assigned">Assigned</button>
-          </div>
-          <div class="student-card">
-            <p>Amachree Sokeipirim</p>
-            <button class="pending">Pending</button>
-          </div>
-        </div>
-        <hr>
-        <a href="#" class="view-all">View All</a>
-      </section>
-      <section class="ongoing">
-        <div class="container">
-         <div class="cardHeader">
-            <h3>Ongoing</h3>
-            <div class="course">
-                <div class="course-bar"></div>
-                <div class="course-details">
-                   <div class="course-name"><h4>Mobile App Development</h4></div>
-                   <div class="course-time">9:00-11:00AM</div> 
+                    <div id="searchContainer">
+                        <span class="material-symbols-outlined">search</span>
+                        <input class="searchbox" type="text" placeholder="Search students" />
+                    </div>
                 </div>
-              </div>
-        
-             <div class="course">
-                <div class="course-bar"></div>
-                <div class="course-details">
-                    <div class="course-name"><h4>Python Programming</h4></div>
-                    <div class="course-time">9:00-11:00AM</div>
-                </div> 
-              </div>
-          </div>
-          <div class="cardHeaders">
-            <h4>Pending Fees</h4>
-            <div class="fee-item">
-                <span>Amachree Sokiepirim</span>
-                <span>300k</span>
+
+                <div class="gcard">
+                    <div class="class-list">
+                        <h4 id="student">Student</h4>
+                        <h4 id="class">Class</h4>
+                    </div>
+                    <div class="student-card">
+                        <p>Ebere Tobechukwu</p>
+                        <button class="assigned">Assigned</button>
+                    </div>
+                    <div class="student-card">
+                        <p>Asiegbu Esther</p>
+                        <button class="assigned">Assigned</button>
+                    </div>
+                    <div class="student-card">
+                        <p>Atigbi Destiny</p>
+                        <button class="assigned">Assigned</button>
+                    </div>
+                    <div class="student-card">
+                        <p>Amachree Sokeipirim</p>
+                        <button class="pending">Pending</button>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="view-all">View All</a>
+            </section>
+
+
+
+        </section>
+        <section class="ongoing">
+            <div class="container">
+                <div class="cardHeaders">
+                    <h3>Ongoing</h3>
+                    <div class="course">
+                        <div class="course-bar"></div>
+                        <div class="course-details">
+                            <div class="course-name">
+                                <h4>Mobile App Development</h4>
+                            </div>
+                            <div class="course-time">9:00-11:00AM</div>
+                        </div>
+                    </div>
+
+                    <div class="course">
+                        <div class="course-bar"></div>
+                        <div class="course-details">
+                            <div class="course-name">
+                                <h4>Python Programming</h4>
+                            </div>
+                            <div class="course-time">9:00-11:00AM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardHeaders">
+                    <h4>Pending Fees</h4>
+                    <div class="fee-item">
+                        <span>Amachree Sokiepirim</span>
+                        <span>300k</span>
+                    </div>
+
+                    <div class="fee-item">
+                        <span>Asiegbu Esther</span>
+                        <span>200k</span>
+                    </div>
+
+                    <div class="view-all">View All</div>
+                </div>
             </div>
 
-            <div class="fee-item">
-                <span>Asiegbu Esther</span>
-                <span>200k</span>
             </div>
-
-           <div class="view-all">View All</div>
-          </div>
-        </div>
-
-      </div>
-      </section>
+        </section>
     </section>
-  </body>
+</body>
+
 </html>
