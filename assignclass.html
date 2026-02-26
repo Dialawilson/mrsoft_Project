@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/form.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <section>
+
+        <div id="form-container">
+            <div class="image">
+                <img src="/Image/mrsoft.png"  id="logo" alt="Logo">
+            </div>
+
+            <form id="studentForm" action="/submit-student" method="POST">
+                <label class="name"></label>
+                <input id="name" type="text" id="name" name="ClassName" placeholder="Class Name">
+
+                <label for="CourseEnrolled"></label>
+                <input id="CourseEnrolled" type="text" name="NumberOfStudents" placeholder="Number of Students" required>
+
+                
+                <label for="CourseDuration"></label>
+                <input id="CourseDuration" type="text" name="ClassTime" placeholder="Class Time" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
