@@ -382,3 +382,62 @@ body {
     width: 78vw;
     padding: 20px;
 }
+.container{
+    gap: 30px;
+    margin-left: 800px;
+}
+.course{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.course-bar{
+    width: 5px;
+    height: 40px;
+    background-color: #0a7f5a;
+    margin-right: 15px;
+    border-radius: 3px;
+}
+.course-details{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.course-name{
+    font-size: 15px;
+    font-weight: bold;
+}
+.course-time{
+    font-size: 13px;
+    color: gray;
+}
+.fee-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.view-all{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #0a7f5a;
+    cursor: pointer;
+}
+.view-all:hover{
+    text-decoration: underline;
+}
+
+.cardHeaders{
+    background: #ffffff;
+    margin-left: 0 auto;
+    width: 300px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    gap: 20px;
+    margin-top: 20px;
+}
+.cardHeader h3{
+    margin-bottom: 20px;
+    color: #333;
+}
