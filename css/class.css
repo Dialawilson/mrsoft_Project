@@ -233,6 +233,14 @@ box-shadow: 0 2px 8px rgba(0, 0, 0, 0, 0.08);
     margin-bottom: 20px;
     color: #333;
 }
+.col-1{
+    width: 70%;
+    border: 2px solid rgb(145, 31, 31);
+}
+.col-2{
+    width: 30%;
+    border: 2px solid rgb(31, 145, 75);
+}
 
 .main-content{
     background-color: #f4f6f9;
