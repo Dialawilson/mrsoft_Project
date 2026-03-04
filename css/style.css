@@ -283,7 +283,6 @@ body {
 #searchContainer {
   display: flex;
   align-items: center;
-  /* margin-top: 10px; */
   position: relative;
   border: 2px solid black;
 }
