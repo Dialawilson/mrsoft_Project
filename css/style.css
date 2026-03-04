@@ -230,7 +230,6 @@ body {
 }
 
 .list {
-  /* border: 2px solid black; */
   display: flex;
   gap: 20px;
   max-width: 650px;
@@ -238,8 +237,8 @@ body {
   margin: 40px auto;
   padding: 3.5em;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  background-color: white;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); */
+  /* background-color: white; */
 
 }
 .view-all-container{
@@ -248,149 +247,121 @@ body {
   cursor: pointer;
 }
 
-.student-list {
-  /* padding: 20px; */
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-  gap: 20px;
-}
-
 .student-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 400px;
-  border: 2px solid black;
+  width: 100%;
+  padding: 15px 30px;       
+  border-bottom: 1px solid #eee; 
 }
 
 #divWrapper {
   display: flex;
   margin-top: 10px;
-  margin-left: 150px;
   align-items: center;
-  /* position: relative; */
   justify-content: space-between;
-  gap: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  border: 2px solid pink;
+  gap: 20px;                      
+  padding: 0;
+  width: 100%;
 }
 
 #searchContainer {
   display: flex;
   align-items: center;
-  position: relative;
-  border: 2px solid black;
+  background-color: white;
+  padding: 5px 12px;
+  gap: 8px;
+  border: 1px solid #ccc;
 }
 
-#searchContainer>input {
-  padding: 10px 30px;
+#searchContainer input {
+  font-size: 14px;
+  width: 180px;
+  background: transparent;
 }
 
-#searchContainer>span {
-  position: relative;
-  left: 30px;
+#searchContainer span {
+font-size: 20px;
+color: gray
 }
 
-/* .class-list{
-    display: flex;
-    justify-content: space-between;
-    font-size: large;
-    /* background-color: grey; */
-/* height: 50px;
-    padding: 10px; */
-/* margin-left: 20px; */
-/* margin-top: 30px;
-    border-radius: 8px; */
 .gcard {
-/* border: 2px solid black; */
-padding: 20px;
-margin-left: 120px;
-width: 650px;
-
-
+  padding: 20px;
+  margin-left: 0;       
+  width: 100%;          
 }
 
 .class-list {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   background-color: #e9edf3;
-  flex-direction: row;
-  gap: 10px;
-  font-size: 20px;
-  border: 2px solid #f1f1f1f1;
-  width: 650px;
+  font-size: 16px;
+  width: 100%;         
   padding: 10px 30px;
-  /* margin-left: 150px; */
- 
-
   margin-bottom: 20px;
-  border: 2px solid blue;
+  border-radius: 6px;
 }
 
-.searchbox input {
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  border-top: 2px solid black;
+.student-list {
+  width: 600px;
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
-/* .material-symbols-outlined {
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
-} */
-
-
-.student-list table {
-  width: 100%;
-  border-collapse: collapse;
+.title{
+   text-align: center;
+   margin-bottom: 20px;
 }
 
-.student-list th,
-td {
-  padding: 10px;
-  text-align: left;
-}
 
 .assigned {
   background-color: green;
-  color: black;
-  padding: 5px 10px;
+  color: white;              
+  padding: 8px 18px;         
   border-radius: 70px;
+  border: none;
+  font-size: 14px;
 }
 
 .pending {
   background-color: red;
-  color: black;
-  padding: 5px 10px;
+  color: white;              
+  padding: 8px 18px;         
   border-radius: 70px;
+  border: none;
+  font-size: 14px;
 }
 
 .actions {
   display: flex;
-  gap: 10px;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.actions a {
+  padding: 5px;
+  border-radius: 8px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .actions button {
-  padding: 5px;
+  padding: 12px 24px;        /* was: 5px */
   border-radius: 8px;
   background: green;
-  color: black;
+  color: white;              /* was: black */
+  font-size: 15px;           /* was: not set */
+  font-weight: bold;         /* was: not set */
+  border: none;
+  cursor: pointer;
 }
 
-.view-all {
-  margin-top: 10px;
-  text-decoration: overline;
-  color: black;
-}
 
 .ongoing {
   border: 2px solid black;
@@ -486,6 +457,7 @@ td {
   font-size: 14px;
   color: #0a7f5a;
   cursor: pointer;
+  text-align: center;
 }
 
 .view-all:hover {
